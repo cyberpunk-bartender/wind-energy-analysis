@@ -9,4 +9,4 @@ Show the wind roses of Tokyo, Tohoku and Hokkaido
 * `wind_map.py`: データ洗浄、風向ベクトル分解、Foliumマップ生成のメインスクリプト
 * `wind_map_master.html`: 生成された wind rosesマップ
 * 解析ロジックとデータ処理
-風向の16方位を単なる頻度ではなく、三角関数（$\sin^2\theta, \cos^2\theta$）を用いて東西・南北ベクトルに厳密に分解しています。さらにMatplotlibで極座標グラフを生成し、Base64エンコードによりFoliumマップ内に直接埋め込んでいます。
+風向の16方位を単なる頻度ではなく、三角関数（$\sin^2\theta, \cos^2\theta$）を用いて東西・南北ベクトルにに分解しています。さらにMatplotlibで極座標グラフを生成し、Base64エンコードによりFoliumマップ内に直接埋め込んでいます。
